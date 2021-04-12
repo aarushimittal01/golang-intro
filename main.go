@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"golang-intro/counter"
+	"golang-intro/interfaces"
 )
 
 func main() {
@@ -73,4 +74,6 @@ func main() {
 	fmt.Println(get_odd_nos())
 	fmt.Println(get_odd_nos())
 	fmt.Println(get_odd_nos())
+
+	interfaces.Sort_products()
 }
