@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"golang-intro/channels"
 	"golang-intro/counter"
 	"golang-intro/interfaces"
 )
@@ -76,4 +77,7 @@ func main() {
 	fmt.Println(get_odd_nos())
 
 	interfaces.Sort_products()
+
+	//channel
+	channels.Channel_hello_world()
 }
